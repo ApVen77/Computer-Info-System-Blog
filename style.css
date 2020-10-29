@@ -6,6 +6,32 @@ body {
     background-color: whitesmoke;
 }
 
+.divider {
+    width: 100%;
+    background-color:grey;
+    height: 30px; 
+}
+
+.divider p {
+    float: right; 
+    font-size: 10px;
+    color: black;
+}
+
+.new {
+    background-color: turquoise;
+}
+.new img {
+    border: black solid 10px;
+    margin-left: 200px;
+   
+}
+
+.new h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
 
 .flexbox-container {
     display: flex;
@@ -66,6 +92,7 @@ footer p {
     box-shadow: 30px 10px 2px white;
 }
 
+
 #HCB_comment_box #hcb_form_content,
 #HCB_comment_box #hcb_form_email,
 #HCB_comment_box #hcb_form_name,
@@ -92,6 +119,8 @@ footer p {
 
   #HCB_comment_box .hcb-icon {
       display: none;
+      height: 100px;
+      width: 100px;
   }
 
   #HCB_comment_box .submit {
