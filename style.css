@@ -34,14 +34,7 @@ img {
    
 }
 
-footer {
-    position: sticky;
-    /* display: inline; */
-    background-color: black;
-    width: 100%;
-    height: 110px;
 
-}
 
 footer img {
     width: 70px;
