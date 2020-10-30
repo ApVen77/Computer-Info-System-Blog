@@ -1,9 +1,14 @@
 * {
     list-style-type: none;
+    font-family: 'Architects Daughter', cursive;
+    margin: 10px 5px;
 }
 
 body {
-    background-color:aqua
+    
+    background-image: url("images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .divider {
@@ -21,10 +26,18 @@ body {
 /* .new {
     background-color: turquoise;
 } */
+
+
 .new img {
     border: black solid 10px;
-    margin-left: 200px;
+    margin-left: 30px;
    
+}
+
+.new p {
+    width: 30%;
+    font-size: 25px;
+    line-height: 40px;
 }
 
 .new h2 {
@@ -44,6 +57,7 @@ body {
 
 h1 {
     background-color: #b3b0ac;
+    text-align: center;
     width: 100%;
     height: 110px;
     padding: 0 20px 0 10px;
@@ -52,9 +66,23 @@ h1 {
     margin-left: 10px;
 }
 
+.third {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #c46c56;
+    border: solid black 5px;
+    
+}
 img {
-    width: 250px;
-    height: 200px
+    width: 350px;
+    height: 300px;
+    border: black 5px solid;
+}
+
+.new img {
+    width: 150px;
+    height: 100px;
 }
 
 .second {
@@ -62,18 +90,29 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    justify-content: space-between;
+   
    
 }
 
+
+
 .questions  {
-    border: outset blue 10px;
-    border-radius: 80%;
+   
     text-align: center;
-    width: 60%;
-    height: 170px;
+    width: 30%;
+    height: 280px;
     padding: 10px;
+    color: honeydew;
     
+}
+
+.questions p {
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.questions h3 {
+    color: black;
 }
 
 footer {
@@ -92,6 +131,20 @@ footer img {
     border-radius: 50%;
     margin-top: 10px;
     margin-right: 12px;
+    transition-duration: 3s;
+    transition-property: transform;
+}
+
+.flex2 {
+    color: white;
+}
+
+.flex3 ul li{
+    color: white;
+}
+
+footer img:hover {
+    transform: rotate(40deg);
 }
 
 footer p {
@@ -119,7 +172,7 @@ footer p {
 .likes {
     height: 100px;
     width: 100px;
-    ;
+    
 }
 
 #HCB_comment_box blockquote {
