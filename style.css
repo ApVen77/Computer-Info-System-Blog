@@ -102,8 +102,14 @@ footer p {
 }
 
 #HCB_comment_box textarea {
-    height:400px;
+    height:200px;
 
+}
+
+.likes {
+    height: 100px;
+    width: 100px;
+    ;
 }
 
 #HCB_comment_box blockquote {
