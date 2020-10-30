@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color:aqua
 }
 
 .divider {
@@ -18,9 +18,9 @@ body {
     color: black;
 }
 
-.new {
+/* .new {
     background-color: turquoise;
-}
+} */
 .new img {
     border: black solid 10px;
     margin-left: 200px;
@@ -64,6 +64,16 @@ img {
     justify-content: space-around;
     justify-content: space-between;
    
+}
+
+.questions  {
+    border: outset blue 10px;
+    border-radius: 80%;
+    text-align: center;
+    width: 60%;
+    height: 170px;
+    padding: 10px;
+    
 }
 
 footer {
