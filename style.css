@@ -35,7 +35,7 @@ body {
 }
 
 .new p {
-    width: 30%;
+  
     font-size: 25px;
     line-height: 40px;
 }
@@ -80,6 +80,11 @@ img {
     border: black 5px solid;
 }
 
+.new {
+    width: 500px;
+    height: 350px;
+}
+
 .new img {
     width: 150px;
     height: 100px;
@@ -113,6 +118,11 @@ img {
 
 .questions h3 {
     color: black;
+}
+
+#one:hover {
+    color: white;
+    cursor: pointer;
 }
 
 footer {
@@ -150,7 +160,7 @@ footer img:hover {
 footer p {
     color: whitesmoke;
     float: right;
-    margin-top: 45px;
+    margin-top: 35px;
     margin-right: 12px;
     box-shadow: 30px 10px 2px white;
 }
