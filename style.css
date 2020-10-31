@@ -120,10 +120,7 @@ img {
     color: black;
 }
 
-#one:hover {
-    color: white;
-    cursor: pointer;
-}
+
 
 footer {
     background-color: rgb(65, 62, 62);
@@ -175,7 +172,7 @@ footer p {
 }
 
 #HCB_comment_box textarea {
-    height:200px;
+    height:50px;
 
 }
 
@@ -186,11 +183,11 @@ footer p {
 }
 
 #HCB_comment_box blockquote {
-    color:red; 
+    color: white;
 }
 
 #HCB_comment_box .text-blur {
-    color:red;
+    color: white;
   }
   #HCB_comment_box .text-focus {
     color:darkred;
