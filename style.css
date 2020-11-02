@@ -60,10 +60,14 @@ h1 {
     text-align: center;
     width: 100%;
     height: 110px;
-    padding: 0 20px 0 10px;
+    padding: 5px 20px 5px 10px;
     font-size: 40px;
     margin-top: 10px;
     margin-left: 10px;
+}
+
+.aven {
+    background-color: papayawhip;
 }
 
 .third {
@@ -71,7 +75,7 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #c46c56;
-    border: solid black 5px;
+    border: solid black 10px;
     
 }
 img {
@@ -85,9 +89,8 @@ img {
     height: 350px;
 }
 
-.new img {
-    width: 150px;
-    height: 100px;
+.flex9 img {
+    filter: blur(1px);
 }
 
 .second {
@@ -97,6 +100,11 @@ img {
     justify-content: space-around;
    
    
+}
+
+.second img {
+    border: inset navy 20px;
+    background-color: navy;
 }
 
 
@@ -142,6 +150,10 @@ footer img {
     transition-property: transform;
 }
 
+.flex1 img {
+    border: none;
+}
+
 .flex2 {
     color: white;
 }
@@ -163,12 +175,9 @@ footer p {
 }
 
 
-#HCB_comment_box #hcb_form_content,
-#HCB_comment_box #hcb_form_email,
-#HCB_comment_box #hcb_form_name,
-#HCB_comment_box #hcb_form_website {
-  background-color:#d5e1f0;
-  color: #080808;
+#HCB_comment_box{
+    font-size: 20px;
+    color: white;
 }
 
 #HCB_comment_box textarea {
@@ -176,11 +185,7 @@ footer p {
 
 }
 
-.likes {
-    height: 100px;
-    width: 100px;
-    
-}
+
 
 #HCB_comment_box blockquote {
     color: white;
@@ -190,13 +195,13 @@ footer p {
     color: white;
   }
   #HCB_comment_box .text-focus {
-    color:darkred;
+    color:rgb(252, 196, 196);
   }
 
   #HCB_comment_box .hcb-icon {
-      display: none;
-      height: 100px;
-      width: 100px;
+      
+      height: 50px;
+      width: 50px;
   }
 
   #HCB_comment_box .submit {
