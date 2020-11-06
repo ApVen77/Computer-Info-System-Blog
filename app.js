@@ -1,2 +1,2 @@
-document.getElementByClassName("h1").innerHTML= "dd";
+document.getElementByTagName("h1").innerHTML= "dd";
 
