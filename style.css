@@ -2,6 +2,7 @@
     list-style-type: none;
     font-family: 'Architects Daughter', cursive;
     margin: 10px 5px;
+    cursor: pointer;
 }
 
 body {
@@ -110,6 +111,22 @@ h1 {
      color: red;
  }
 
+ .twenty {
+     color: wheat;
+ }
+
+ .twenty p {
+     line-height: 70px;
+     color: gold;
+ }
+
+ .twenty h3 {
+     font-size: 25px;
+ }
+ .twenty h3:hover {
+     font-size: 28px;
+     color: white;
+ }
  table, td, th {
     border: none;
     border-collapse: collapse;  
