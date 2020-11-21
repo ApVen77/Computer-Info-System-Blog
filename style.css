@@ -72,7 +72,7 @@ h1 {
     background-color: papayawhip;
 }
 
-.third {
+.third  {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -90,7 +90,7 @@ h1 {
     
  }
 
- .fifth {
+ .fifth, .seventh {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
